@@ -1,0 +1,35 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Workbench/Project/Plugins/IdeaPlugin">
+          <value>
+            <RecentProjectMetaInfo frameTitle="IdeaPlugin" projectWorkspaceId="2aAy2vZhglHXWZU0j944J1YS29A">
+              <option name="activationTimestamp" value="1705418662749" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-222.3345.118" />
+              <option name="buildTimestamp" value="1658811665213" />
+              <frame x="187" y="224" width="1093" height="633" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1705418657359" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Workbench/Project/Plugins/DiffVerificate">
+          <value>
+            <RecentProjectMetaInfo frameTitle="DiffVerificate – AnnotationSettingsConfigurable.java [DiffVerificate.main]" opened="true" projectWorkspaceId="2aGIbJzmvMySyDWN38vIiZrhUGm">
+              <option name="activationTimestamp" value="1706191347656" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-222.3345.118" />
+              <option name="buildTimestamp" value="1658811694499" />
+              <frame x="110" y="25" width="1093" height="633" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1706190292747" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Workbench/Project/Plugins/DiffVerificate" />
+  </component>
+</application>

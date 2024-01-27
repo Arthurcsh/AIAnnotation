@@ -1,0 +1,33 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="ai" path="ActionManager" hit="Annotation Fragments(AI)" />
+    <option name="annotation" path="ActionManager" hit="Annotation Fragments(AI)" />
+    <option name="fragments" path="ActionManager" hit="Annotation Fragments(AI)" />
+    <option name="ai" path="ActionManager" hit="annotation code with Ai(JDC)" />
+    <option name="annotation" path="ActionManager" hit="annotation code with Ai(JDC)" />
+    <option name="code" path="ActionManager" hit="annotation code with Ai(JDC)" />
+    <option name="jdc" path="ActionManager" hit="annotation code with Ai(JDC)" />
+    <option name="with" path="ActionManager" hit="annotation code with Ai(JDC)" />
+  </configurable>
+  <configurable id="com.jdc.plugin.annotation.settings" configurable_name="Annotation Settings(AI)">
+    <option name="中文" hit="  " />
+    <option name="英文" hit="  " />
+    <option name="注释语言" hit="    " />
+    <option name="编码语言" hit="    " />
+    <option name="ai" hit="Annotation Settings(AI)" />
+    <option name="annotation" hit="Annotation Settings(AI)" />
+    <option name="settings" hit="Annotation Settings(AI)" />
+    <option name="c" hit="C++" />
+    <option name="css" hit="CSS" />
+    <option name="gpt版本" hit="GPT  " />
+    <option name="gpt" hit="GPT-3" />
+    <option name="gpt" hit="GPT-4" />
+    <option name="java" hit="Java" />
+    <option name="javascript" hit="JavaScript" />
+    <option name="c" hit="Objective-C" />
+    <option name="objective" hit="Objective-C" />
+    <option name="python" hit="Python" />
+    <option name="swift" hit="Swift" />
+    <option name="typescript" hit="TypeScript" />
+  </configurable>
+</options>

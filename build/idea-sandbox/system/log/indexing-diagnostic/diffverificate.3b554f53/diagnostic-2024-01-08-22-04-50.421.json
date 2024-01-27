@@ -1,0 +1,483 @@
+{
+  "appInfo" : {
+    "build" : "222.3345.118",
+    "buildDate" : "2022-07-26T05:01:22.132Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2024-01-08T14:04:50.424687Z",
+    "os" : "macOS 12.7.1",
+    "runtime" : "JetBrains s.r.o. 17.0.3 17.0.3+7-b469.32"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 786432000,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "DiffVerificate",
+    "times" : {
+      "indexingReason" : "On project open",
+      "scanningType" : "FULL_ON_PROJECT_OPEN",
+      "totalUpdatingTime" : 18491815511,
+      "indexingTime" : 9962436000,
+      "contentLoadingVisibleTime" : 531415582,
+      "creatingIteratorsTime" : 20342000,
+      "scanFilesTime" : 8461656000,
+      "pushPropertiesTime" : 1394000,
+      "indexExtensionsTime" : 0,
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 2130437916,
+      "updatingStart" : "2024-01-08T14:04:31.925565Z",
+      "updatingEnd" : "2024-01-08T14:04:50.418331Z",
+      "totalSuspendedTime" : 0,
+      "wasInterrupted" : false
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 19,
+      "numberOfScannedFiles" : 235908,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 4203,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 4203
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "Kotlin",
+      "partOfTotalProcessingTime" : {
+        "part" : 28935385479,
+        "total" : 39451752891
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 992778606,
+        "total" : 2106484072
+      },
+      "totalNumberOfFiles" : 2044,
+      "totalFilesSize" : 9588161,
+      "indexingSpeed" : {
+        "totalBytes" : 9588161,
+        "totalTime" : 28935385479
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Gradle: com.jetbrains:ideaIC:2022.2",
+        "numberOfFiles" : 2044,
+        "totalFilesSize" : 9588161,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 28935385479,
+          "total" : 28935385479
+        }
+      } ]
+    }, {
+      "fileType" : "JAVA",
+      "partOfTotalProcessingTime" : {
+        "part" : 9826607915,
+        "total" : 39451752891
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 1096253897,
+        "total" : 2106484072
+      },
+      "totalNumberOfFiles" : 2105,
+      "totalFilesSize" : 10774510,
+      "indexingSpeed" : {
+        "totalBytes" : 10774510,
+        "totalTime" : 9826607915
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Gradle: com.jetbrains:ideaIC:2022.2",
+        "numberOfFiles" : 2105,
+        "totalFilesSize" : 10774510,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 9826607915,
+          "total" : 9826607915
+        }
+      } ]
+    }, {
+      "fileType" : "Groovy",
+      "partOfTotalProcessingTime" : {
+        "part" : 689759497,
+        "total" : 39451752891
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 17451569,
+        "total" : 2106484072
+      },
+      "totalNumberOfFiles" : 54,
+      "totalFilesSize" : 83075,
+      "indexingSpeed" : {
+        "totalBytes" : 83075,
+        "totalTime" : 689759497
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Gradle: com.jetbrains:ideaIC:2022.2",
+        "numberOfFiles" : 54,
+        "totalFilesSize" : 83075,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 689759497,
+          "total" : 689759497
+        }
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : {
+        "part" : 15095462570,
+        "total" : 25957071744
+      },
+      "totalNumberOfFiles" : 2098,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9671236,
+      "indexingSpeed" : {
+        "totalBytes" : 9671236,
+        "totalTime" : 15095462570
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 4946014144,
+        "total" : 25957071744
+      },
+      "totalNumberOfFiles" : 2044,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9588161,
+      "indexingSpeed" : {
+        "totalBytes" : 9588161,
+        "totalTime" : 4946014144
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 4133511964,
+        "total" : 25957071744
+      },
+      "totalNumberOfFiles" : 4203,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 20445746,
+      "indexingSpeed" : {
+        "totalBytes" : 20445746,
+        "totalTime" : 4133511964
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 1671153189,
+        "total" : 25957071744
+      },
+      "totalNumberOfFiles" : 4203,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 20445746,
+      "indexingSpeed" : {
+        "totalBytes" : 20445746,
+        "totalTime" : 1671153189
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 110929877,
+        "total" : 25957071744
+      },
+      "totalNumberOfFiles" : 2044,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9588161,
+      "indexingSpeed" : {
+        "totalBytes" : 9588161,
+        "totalTime" : 110929877
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    } ],
+    "scanningStatistics" : [ {
+      "providerName" : "Library Gradle: com.jetbrains:ideaIC:2022.2",
+      "numberOfScannedFiles" : 189585,
+      "numberOfSkippedFiles" : 2,
+      "numberOfFilesForIndexing" : 4203,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 5697279830,
+      "scanningTime" : 5897716570,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 144201814,
+      "timeIndexingWithoutContent" : 20598353,
+      "roots" : [ ]
+    }, {
+      "providerName" : "JDK openjdk-21",
+      "numberOfScannedFiles" : 43903,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 3434756704,
+      "scanningTime" : 3539416753,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 70376421,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'DiffVerificate' (DiffVerificate)",
+      "numberOfScannedFiles" : 17,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 962241226,
+      "scanningTime" : 997745287,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 211643,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Indexable set contributor 'com.intellij.javaee.ExternalResourcesRootsProvider@19fe0da4' (non-project)",
+      "numberOfScannedFiles" : 229,
+      "numberOfSkippedFiles" : 4,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 453467033,
+      "scanningTime" : 471678138,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 666420,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.junit.jupiter:junit-jupiter-params:5.9.3",
+      "numberOfScannedFiles" : 403,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 260445571,
+      "scanningTime" : 318734573,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 2235097,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.junit.jupiter:junit-jupiter-api:5.9.3",
+      "numberOfScannedFiles" : 334,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 283438354,
+      "scanningTime" : 307135825,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 2132101,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: junit:junit:4.13.2",
+      "numberOfScannedFiles" : 578,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 214945410,
+      "scanningTime" : 235295753,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 2008939,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.3",
+      "numberOfScannedFiles" : 243,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 207857469,
+      "scanningTime" : 222047351,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 1326519,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.jetbrains:annotations:24.0.0",
+      "numberOfScannedFiles" : 93,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 122052639,
+      "scanningTime" : 173083856,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 1181537,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.junit.platform:junit-platform-engine:1.9.3",
+      "numberOfScannedFiles" : 228,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 136974064,
+      "scanningTime" : 144116668,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 910582,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.apiguardian:apiguardian-api:1.1.2",
+      "numberOfScannedFiles" : 9,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 79645191,
+      "scanningTime" : 102767802,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 109866,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'DiffVerificate.main' (main)",
+      "numberOfScannedFiles" : 13,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 64980513,
+      "scanningTime" : 88460478,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 159288,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.junit.platform:junit-platform-commons:1.9.3",
+      "numberOfScannedFiles" : 93,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 68609582,
+      "scanningTime" : 76253828,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 519115,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.junit.vintage:junit-vintage-engine:5.9.3",
+      "numberOfScannedFiles" : 75,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 28513887,
+      "scanningTime" : 35843916,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 350470,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.hamcrest:hamcrest-core:1.3",
+      "numberOfScannedFiles" : 88,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 20385045,
+      "scanningTime" : 26295574,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 278698,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Indexable set contributor 'Scratches & Consoles' (non-project)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 9158339,
+      "scanningTime" : 11639108,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 3184,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.opentest4j:opentest4j:1.2.0",
+      "numberOfScannedFiles" : 16,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 5454428,
+      "scanningTime" : 6464058,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 111600,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Indexable set contributor 'Scratches & Consoles' (project)",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "scanningTime" : 0,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Indexable set contributor 'com.intellij.javaee.ExternalResourcesRootsProvider@19fe0da4' (project)",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "scanningTime" : 0,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ ]
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Library Gradle: com.jetbrains:ideaIC:2022.2",
+      "totalNumberOfIndexedFiles" : 4203,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 9952734279,
+      "contentLoadingVisibleTime" : 531415582,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ {
+        "fileName" : "_UArrays.kt",
+        "processingTime" : 686830150,
+        "indexingTime" : 670485019,
+        "contentLoadingTime" : 2954392
+      }, {
+        "fileName" : "_Arrays.kt",
+        "processingTime" : 1446166710,
+        "indexingTime" : 1418842360,
+        "contentLoadingTime" : 9134443
+      } ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 2130437916
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.2522760980100959
+  }
+}

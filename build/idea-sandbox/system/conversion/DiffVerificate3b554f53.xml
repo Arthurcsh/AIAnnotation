@@ -1,0 +1,18 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/AnnotationUserConfig.xml" t="1705904238" />
+    <f p="./.idea/modules.xml" t="1706189036" />
+    <f p="./.idea/uiDesigner.xml" t="1703939383" />
+    <f p="./.idea/workspace.xml" t="1706189203" />
+    <f p="./.idea/compiler.xml" t="1705301270" />
+    <f p="./.idea/gradle.xml" t="1703947877" />
+    <f p="./DiffVerificate.iml" t="1706189036" />
+    <f p="./.idea/misc.xml" t="1705667286" />
+    <f p="./.idea/jarRepositories.xml" t="1703940449" />
+    <f p="./.idea/kotlinc.xml" t="1703938829" />
+    <f p="./.idea/AnnotationSettingsPlugin.xml" t="1705842398" />
+  </project-files>
+</conversion>

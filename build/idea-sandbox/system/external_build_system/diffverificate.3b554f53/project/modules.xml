@@ -1,0 +1,9 @@
+<project>
+  <component name="ExternalProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DiffVerificate.iml" filepath="$PROJECT_DIR$/.idea/DiffVerificate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiffVerificate.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DiffVerificate.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiffVerificate.test.iml" filepath="$PROJECT_DIR$/.idea/modules/DiffVerificate.test.iml" />
+    </modules>
+  </component>
+</project>
