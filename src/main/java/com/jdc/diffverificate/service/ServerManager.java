@@ -161,6 +161,7 @@ public class ServerManager {
             String message = "服务未知错误！";
             String content = "";
             terminalProgress(progressIndicator, 0.54f);
+
             if (response.getStatusCode() == 200) {
                 String body = response.getBody();
                 System.out.println("--- Annotation result: "+body);
@@ -177,9 +178,13 @@ public class ServerManager {
                     return;
                 }
                 MessageUtils.getInstance(project).showInfoMsg(""+response.getStatusCode(), "request.pending");
+            } else if (response.getStatusCode() == 401) {
+                terminalProgress(progressIndicator, 1);
+                transferInvokeLogin(antnCallback, token);
+                return;
             } else {
-                message = "服务状态："+response.getStatusCode()+"     消息: "+response.getBody();
-                MessageUtils.getInstance(project).showWarnMsg(""+response.getStatusCode(), "request.failed");
+                message = "服务状态：" + response.getStatusCode() + "       消息: " + response.getBody();
+                MessageUtils.getInstance(project).showWarnMsg("" + response.getStatusCode(), "request.failed");
             }
 
 //            MessageUtils.getInstance(project).showWarnMsg("", PropertiesUtils.getInfo("response.timeout"));
@@ -188,7 +193,7 @@ public class ServerManager {
             // 在状态栏提示信息【代码生成完成】
             StatusBar statusBar = WindowManager.getInstance().getStatusBar(project);
             JBPopupFactory.getInstance()
-                    .createHtmlTextBalloonBuilder("注释请求已结束", MessageType.INFO, null)
+                    .createHtmlTextBalloonBuilder("注释请求已完成 -- "+message, MessageType.INFO, null)
                     .setFadeoutTime(7500)
                     .createBalloon()
                     .show(RelativePoint.getCenterOf(statusBar.getComponent()), Balloon.Position.atRight);
@@ -202,6 +207,7 @@ public class ServerManager {
                     if (antnCallback != null && StringUtil.isNotEmpty(finalContent)) {
                         RunAnnotationTask.this.antnCallback.annotationInvoke(finalContent);
 //                        Messages.showMessageDialog(finalMessage, "提示", null);
+                        MessageUtils.getInstance(project).showErrorMsg("提示",finalMessage);
                     }
                 }
             });
@@ -237,7 +243,7 @@ public class ServerManager {
             SwingUtilities.invokeLater(new Runnable() {
                 @Override
                 public void run() {
-                    Messages.showMessageDialog("Token失效请重写登录.", "提示", null);
+                    Messages.showMessageDialog("Token失效请重新登录.", "提示", null);
                     antnInterface.annotationNeedLogin(token);
                 }
             });
